@@ -1,0 +1,219 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "hero_home": {
+        "hero_title": "Bienvenue à <span style='text-decoration: underline;letter-spacing: 10px;'>E-SHOP</span>",
+        "hero_description": "Avec <span style='font-size: 15px;font-weight: 700;color: black;'>E-SHOP</span> bénéficiez des offres à prix réduit et une <span style='text-decoration: underline;font-weight: 700;color: black;'>livraison sous 24h gratuite</span> dès <span style='font-weight: 700;color: black;'>100 Dhs</span> d'achat en point relais",
+        "hero_img": "@/assets/images/shop-hero-3.svg",
+        "hero_cta": "Découvrir"
+      }
+    }
+  ],
+  "header_cards": [
+    {
+      "id": 1,
+      "header_title": "LIVRAISON GRATUITE",
+      "header_icon": "fas fa-shipping-fast",
+      "header_description": "livraison sous 24h gratuite dès 100Dhs d'achat en point relais"
+    },
+    {
+      "id": 2,
+      "header_title": "RETOURS FACILITÉS",
+      "header_icon": "fas fa-dolly-flatbed",
+      "header_description": "Le produit doit être retourné dans son emballage d'origine et en parfait état, pour en demander l'échange ou le remboursement."
+    },
+    {
+      "id": 3,
+      "header_title": "PAIEMENT SÉCURISÉ",
+      "header_icon": "fab fa-cc-mastercard",
+      "header_description": "Dans le cadre d'un paiement sécurisé, votre numéro de carte bancaire, date d'expiration et cryptogramme sont cryptés dans la transmission afin de vous protéger"
+    },
+    {
+      "id": 4,
+      "header_title": "DES QUESTIONS ?",
+      "header_icon": "fas fa-question-circle",
+      "header_description": "contact@e-shop.com"
+    }
+  ],
+  "reclamations": [
+    {
+      "firstName": "anas",
+      "lastName": "yassine",
+      "email": "yassine@capgemini.com",
+      "message": "je test",
+      "id": 1
+    },
+    {
+      "firstName": "anas",
+      "lastName": "admin",
+      "email": "yassine@capssmini.com",
+      "message": "ddddddd",
+      "id": 2
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "message": "reclamation test",
+      "id": 3
+    },
+    {
+      "firstName": "anas",
+      "lastName": "yassine",
+      "email": "yassine@capgemini.com",
+      "message": "vvvvvvvvvvvv",
+      "id": 4
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "message": "GGGGG",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cosmetics"
+    },
+    {
+      "id": 2,
+      "name": "Clostings"
+    },
+    {
+      "id": 3,
+      "name": "Treatments"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 19.95,
+      "quantity": 1,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "categoryId": 1,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F124%2F415%2Fmockup-c2bbbaf4__00019.1601229493.png&w=1200&q=85",
+      "rating": {
+        "rate": 3.9,
+        "poplarity": 4,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "quantity": 1,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "categoryId": 2,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F117%2F534%2FMen-TShirt-Black-Front__70046.1603748348.png&w=1200&q=85",
+      "rating": {
+        "rate": 4.1,
+        "poplarity": 1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55,
+      "quantity": 1,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "categoryId": 3,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F116%2F512%2FMen-Jacket-Front-Black__15466.1603283963.png&w=1200&q=85",
+      "rating": {
+        "rate": 5.7,
+        "poplarity": 3,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "quantity": 1,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "categoryId": 2,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F120%2F402%2Fmockup-521d0b16__86945.1603748107.png&w=1200&q=85",
+      "rating": {
+        "rate": 2.1,
+        "poplarity": 4,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Black Beanie",
+      "price": 16,
+      "quantity": 1,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "categoryId": 4,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F115%2F489%2FHat-front-black__72990.1603748583.png&w=1200&q=85",
+      "rating": {
+        "rate": 3.1,
+        "poplarity": 4,
+        "count": 430
+      }
+    },
+    {
+      "id": 6,
+      "title": "Mask-Black",
+      "price": 30,
+      "quantity": 1,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "categoryId": 4,
+      "image": "https://demo.vercel.store/_next/image?url=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-qfzerv205w%2Fimages%2Fstencil%2Foriginal%2Fproducts%2F118%2F508%2FSurgical-Mask-Black__89554.1603756821.png&w=1200&q=85",
+      "rating": {
+        "rate": 4.1,
+        "poplarity": 4,
+        "count": 430
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "firstName": "amine",
+      "lastName": "doe",
+      "address": {
+        "street": "rabat"
+      },
+      "phone": "0570236033"
+    }
+  ],
+  "carts": [
+    {
+      "user": {
+        "fullname": "amine-doe",
+        "email": "admin@gmail.com"
+      },
+      "date": "25/3/2022 16:4:23",
+      "products": [
+        {
+          "id": 5,
+          "quantity": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "user": {
+        "fullname": "amine-doe",
+        "email": "admin@gmail.com"
+      },
+      "date": "30/3/2022 17:13:57",
+      "products": [
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

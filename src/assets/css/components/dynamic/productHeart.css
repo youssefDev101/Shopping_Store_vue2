@@ -1,0 +1,30 @@
+.btn-heart {
+  position: absolute;
+  top: 3px;
+  right: 24px;
+  z-index: 11;
+  background: transparent;
+  width: 11%;
+  font-size: 1.7rem;
+}
+.btn-heart:focus {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.icon-active {
+  color: rgb(245, 148, 148);
+}
+
+/* mobile responsive */
+@media screen and (max-width: 906px) {
+  .btn-heart {
+    position: absolute;
+    top: 8px;
+    right: 24px;
+    z-index: 11;
+    background: transparent;
+    width: 12%;
+    height: 8%;
+  }
+}

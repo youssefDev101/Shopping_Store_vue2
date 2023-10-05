@@ -1,0 +1,38 @@
+.shop-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0rem 1rem 0rem;
+}
+.shop-header h1 {
+  font-size: 3rem;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+}
+.shop-header p {
+  display: block;
+  max-width: 500px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Nunito Sans";
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-top: 0.5rem;
+}
+/* mobile responsive */
+@media screen and (max-width: 906px) {
+  .shop-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .shop-header h1 {
+    font-size: 3rem;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    text-align: center;
+  }
+}

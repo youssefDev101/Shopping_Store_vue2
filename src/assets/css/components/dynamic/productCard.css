@@ -1,0 +1,112 @@
+main:hover {
+  transform: scale(1.05);
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.product-card {
+  cursor: pointer;
+  position: relative;
+  opacity: 1;
+  padding: 1rem 1rem;
+  background: transparent;
+  margin: 1rem 0rem 0rem 0rem;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 25rem;
+}
+.product-showmore {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 3;
+}
+.product-showmore:hover {
+  opacity: 0.5;
+}
+.product-title {
+  font-size: 14px;
+  font-family: "Nunito";
+  font-weight: 700;
+  text-align: center;
+}
+.product-price_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.product-price-del {
+  text-decoration-line: line-through;
+  color: #999999;
+  font-size: 1rem;
+  font-family: "Nunito";
+  font-weight: lighter;
+}
+.product-price {
+  color: var(--black);
+  font-size: 1rem;
+  font-family: "Nunito";
+  font-weight: bold;
+}
+.product-chips {
+  position: absolute;
+  background: #212121;
+  top: 10px;
+  left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 0;
+  z-index: 11;
+}
+.product-img {
+  width: 100%;
+  height: 250px;
+  margin: 1rem auto;
+  padding: 1rem 1rem;
+  text-align: center;
+  min-width: 260px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.product-showmore {
+  width: 90%;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* mobile responsive */
+@media screen and (max-width: 906px) {
+  .product-card {
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+    padding: 1rem 1rem;
+    background: transparent;
+    margin: 1rem 0rem 0rem 0rem;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 32rem;
+  }
+  .product-img {
+    width: 100%;
+    height: 350px;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    min-width: 260px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+}

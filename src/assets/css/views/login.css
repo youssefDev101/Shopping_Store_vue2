@@ -1,0 +1,64 @@
+.login-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .login-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .login-img {
+    flex: 1;
+    width: 200px;
+  }
+  .login-content {
+    flex: 1;
+    width: 80%;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2rem;
+  }
+  .login-link {
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  
+  /* mobile responsive */
+  @media screen and (max-width: 906px) {
+    .login-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .login-img {
+      flex: 1;
+      width: 200px;
+      margin: 1rem 0rem;
+    }
+    .login-content {
+      flex: 1;
+      width: 80%;
+    }
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      text-align: center;
+      line-height: 2rem;
+      margin: 2rem 0rem 1rem 0rem;
+    }
+  }
